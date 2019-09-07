@@ -13,5 +13,9 @@ end
 def grade(student_grade)
   @roster[student_grade]
 end
-
+ def sort
+    @roster.each do |grade, names|
+      names.sort!
+    end
+  end
 end
