@@ -5,9 +5,9 @@ def initialize(name)
   @roster = {} 
 end
 def add_student(student_name, student_grade)
-  if roster.include?(students_grade) == false 
-    @roster[students_grade] = []
+  if roster.include?(student_grade) == false 
+    @roster[student_grade] = []
   end
-  @roster[students_grade] << 
-  
+  @roster[student_grade] << student_name
+end
 end
