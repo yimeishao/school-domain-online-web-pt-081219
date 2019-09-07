@@ -5,6 +5,6 @@ def initialize(name)
   @roster = {} 
 end
 def add_student(student_name, student_grade)
-  unless roster.include?
+  if roster.include?()
   
 end
