@@ -6,6 +6,7 @@ def initialize(name)
 end
 def add_student(student_name, student_grade)
   if roster.include?(students_grade) == false 
-    @roster[students_grade] << 
+    @roster[students_grade] = []
+    
   
 end
